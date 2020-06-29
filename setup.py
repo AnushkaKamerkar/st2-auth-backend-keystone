@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Licensed to the StackStorm, Inc ('StackStorm') under one or more
+# Licensed to the Coditation, Inc ('Coditation') under one or more
 # contributor license agreements.  See the NOTICE file distributed with
 # this work for additional information regarding copyright ownership.
 # The ASF licenses this file to You under the Apache License, Version 2.0
@@ -34,12 +34,12 @@ install_reqs, dep_links = fetch_requirements(REQUIREMENTS_FILE)
 setup(
     name='st2-auth-backend-keystone',
     version=version,
-    description='StackStorm authentication backend which reads credentials from an OpenStack Keystone instance.',
-    author='StackStorm, Inc.',
-    author_email='info@stackstorm.com',
-    url='https://github.com/StackStorm/st2-auth-backend-keystone',
+    description='Coditation authentication backend which reads credentials from an OpenStack Keystone instance.',
+    author='Coditation, Inc.',
+    author_email='info@coditation.com',
+    url='https://github.com/Coditation/st2-auth-backend-keystone',
     license='Apache License (2.0)',
-    download_url='https://github.com/StackStorm/st2-auth-backend-keystone/tarball/master',
+    download_url='https://github.com/Coditation/st2-auth-backend-keystone/tarball/master',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: Apache Software License',
